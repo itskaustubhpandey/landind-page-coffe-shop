@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Coffee House</title>
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9b4c1e;
+            color: #dad9e0;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #070504;
+            color: #FFD54F;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 2px;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 100px;
+        }
+
+        nav ul li a {
+            font-size: 20px;
+            color: #FFD54F;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+            
+        }
+
+
+        nav ul li a:hover {
+            color: #ffffff;
+            font-weight: bolder;
+        }
+
+        .hero {
+            background-image: url(./coffee-beans-top-view-white-background-space-text.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #131210;
+            text-align: center;
+            padding: 180px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #FFD54F;
+            color: #3E2723;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .cta-button:hover {
+            background-color: #A1887F;
+        }
+
+        .about {
+            text-align: center;
+            padding: 5vh 15vh;
+            line-height: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+        }
+
+        .menu {
+            text-align: center;
+            padding: 80px 0;
+            background-image: url(./7808c4959479ed10e71fb91e1be6e8e8.jpg);
+        }
+
+        .menu-item {
+            display: inline-block;
+            margin: 20px;
+            text-align: left;
+            color: white;
+            background-color: #795548;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            max-width: 300px;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .menu-item img {
+            max-width: 100px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #FFD54F;
+            text-align: center;
+            padding: 80px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .social-icons a {
+            
+            margin: 30px 50px;
+            color: #FFD54F;
+            font-size: 30px;
+   
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media (max-width: 768px) {
+            header {
+                padding: 5px 0;
+            }
+
+            nav ul {
+                margin-top: 0;
+            }
+
+            nav ul li {
+                margin-right: 10px;
+            }
+
+            .hero {
+                padding: 120px 20px;
+            }
+
+            .cta-button {
+                padding: 10px 20px;
+            }
+
+            .about {
+                padding: 50px 20px;
+                line-height: 15px;
+            }
+
+            .menu {
+                padding: 50px 20px;
+            }
+
+            .menu-item {
+                margin: 15px;
+                padding: 15px;
+            }
+
+            footer {
+                padding: 40px 0;
+            }
+
+            .social-icons a {
+                margin: 20px 30px;
+                font-size: 24px;
+            }
+        }
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 style="font-size: 50px;">Coffee Hub</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero" id="home">
+            <h2>Discover the Perfect Brew</h2>
+            <p>Indulge in the rich aroma and flavors of our expertly crafted coffees.</p>
+            <a href="#menu" class="cta-button">Explore Menu</a>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 style="font-size: 50px;">About Us</h2> <br>
+                <p>Welcome to Coffee House, where passion meets perfection. Established in 2005, we have been dedicated to serving the finest quality coffee to our beloved customers. Our expert baristas meticulously craft each cup, ensuring a delightful experience with every sip.</p>
+                <p>At Coffee House, we source our coffee beans from sustainable farms around the world, supporting local communities and promoting ethical practices. Our cozy ambiance and friendly staff create a warm atmosphere where you can unwind, work, or catch up with friends.</p>
+                <p>Indulge in our diverse range of coffee blends, carefully curated pastries, and refreshing beverages. Whether you're a coffee enthusiast or a casual visitor, we promise a memorable journey through the world of exceptional flavors and aromas.</p>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <h2 style="font-size: 50px; color: #070504;">Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="./espresso-cup-coffee-rAWYQ23-600.jpg" alt="Espresso">
+                    <h3>Espresso</h3>
+                    <p>$2.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./latte.jpg" alt="Latte">
+                    <h3>Latte</h3>
+                    <p>$3.49</p>
+                </div>
+                <div class="menu-item">
+                    <img src="cappucino.jpg" alt="Cappuccino">
+                    <h3>Cappuccino</h3>
+                    <p>$3.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./mocha.jpg" alt="Mocha">
+                    <h3>Mocha</h3>
+                    <p>$4.29</p>
+                </div>
+                <div class="menu-item">
+                    <img src="./ColdBrewWhiteBackground.webp" alt="Cold Brew">
+                    <h3>Cold Brew</h3>
+                    <p>$3.99</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="contact" class="contact">
+        <footer>
+            <div class="container">
+                <p>Contact Us: info@coffeehouse.com</p>
+                <p>123 Coffee Street, Cityville, State, 12345</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script>
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                
+                window.scrollTo({
+                    top: targetSection.offsetTop,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
